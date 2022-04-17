@@ -26,8 +26,9 @@ public class HelperBase {
         driver.findElement(By.xpath(locator)).sendKeys(text);
     }
 
-    protected void waitAndClickByXpath(String locator) {
+    protected void waitAndClickByXpath(String locator) throws InterruptedException {
         wait.until(ExpectedConditions.elementToBeClickable(By.xpath(locator)));
+        Thread.sleep(1000);
         driver.findElement(By.xpath(locator)).click();
     }
 

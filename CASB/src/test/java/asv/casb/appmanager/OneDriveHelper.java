@@ -21,14 +21,14 @@ public class OneDriveHelper extends HelperBase {
         super(driver, wait);
     }
 
-    public void createFolderOneDrive(String nameFolder) {
+    public void createFolderOneDrive(String nameFolder) throws InterruptedException {
         waitAndClickByXpath("//button[@title='Create a new folder or document in this location']");
         waitAndClickByXpath("//button[@name='Folder']");
         waitAndTypeByPath("//input[@placeholder='Enter your folder name']",nameFolder);
         waitAndClickById("id__270");
     }
 
-    public void openOneDrive() {
+    public void openOneDrive() throws InterruptedException {
         waitAndClickByXpath("//span[normalize-space()='All apps']");
         waitAndClickByXpath("//span[contains(text(),'OneDrive')]");
 

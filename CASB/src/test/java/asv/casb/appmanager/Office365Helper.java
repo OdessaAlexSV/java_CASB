@@ -33,13 +33,13 @@ public class Office365Helper extends HelperBase {
             waitAndClickById("idSIButton9");
     }
 
-    public void logoutOffice365() {
+    public void logoutOffice365() throws InterruptedException {
         waitAndClickByXpath("//button[@id='O365_MainLink_Me']");
         waitAndClickByXpath("//a[@id='mectrl_body_signOut']");
         waitAndClickByXpath("//img[@role='presentation']");
     }
 
-    public void openLaunchAppOffice365() {
+    public void openLaunchAppOffice365() throws InterruptedException {
         waitAndClickByXpath("//button[@id='O365_MainLink_NavMenu']");
     }
 
