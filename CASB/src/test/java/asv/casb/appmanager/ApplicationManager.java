@@ -37,7 +37,6 @@ public class ApplicationManager {
 
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
         office365Helper = new Office365Helper(driver,wait);
-        System.out.print(" - Started");
     }
 
     public void stop() {

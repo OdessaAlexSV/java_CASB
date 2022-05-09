@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="asv.casb.tests.LoginSuccess" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-04-17T18:44:41" hostname="2024-ASVIDERSKY" time="16.8">
+<testsuite name="asv.casb.tests.LoginSuccess" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-05-09T11:55:27" hostname="2024-ASVIDERSKY" time="17.36">
   <properties/>
-  <testcase name="testOffice365LoginSuccess" classname="asv.casb.tests.LoginSuccess" time="16.8"/>
-  <system-out><![CDATA[ - Started]]></system-out>
+  <testcase name="testOffice365LoginSuccess" classname="asv.casb.tests.LoginSuccess" time="17.36"/>
+  <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
 SLF4J: Defaulting to no-operation (NOP) logger implementation
 SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
-Starting MSEdgeDriver 100.0.1185.39 (5d3e4966b112fb8c2d3aa0aab64ba560cadfc2f2) on port 50522
+Starting MSEdgeDriver 100.0.1185.39 (5d3e4966b112fb8c2d3aa0aab64ba560cadfc2f2) on port 59491
 Only local connections are allowed.
 Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
 MSEdgeDriver was started successfully.
-Apr 17, 2022 9:44:41 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+[1652097327.095][WARNING]: This version of MSEdgeDriver has not been tested with MSEdge version 101.
+May 09, 2022 2:55:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: W3C
-Apr 17, 2022 9:44:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-WARNING: Unable to find an exact match for CDP version 100, so returning the closest version found: 99
-Apr 17, 2022 9:44:41 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
-INFO: Found CDP implementation for version 100 of 99
+May 09, 2022 2:55:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 101, so returning the closest version found: 99
+May 09, 2022 2:55:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Found CDP implementation for version 101 of 99
 ]]></system-err>
 </testsuite>
